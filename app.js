@@ -127,3 +127,22 @@ console.log("Pelanggan B -> Total Poin: " + poinPelangganB + " | " + tierPelangg
 let poinPelangganC = hitungTotalPoin(20, 10, 5);
 let tierPelangganC = tentukanTierMember(poinPelangganC);
 console.log("Pelanggan C -> Total Poin: " + poinPelangganC + " | " + tierPelangganC + "\n ");
+// -----------------------------------------------------------------------------
+// AKTIVITAS 6: PENGELOLAAN ARRAY & PERULANGAN MENU REKOMENDASI
+// -----------------------------------------------------------------------------
+const menuRekomendasi = [
+  "Espresso Single Origin",
+  "Caramel Macchiato Ganteng",
+  "Creamy Matcha Latte Erjan",
+  "Butter Croissant Warm",
+  "Signature Cold Brew Gula Aren"
+];
+
+console.log("=== MENU REKOMENDASI " + NAMA_KEDAI.toUpperCase() + " ===");
+for (let i = 0; i < menuRekomendasi.length; i++) {
+  console.log((i + 1) + ". " + menuRekomendasi[i]);
+}
+
+console.log("-----------------------------------------");
+console.log("Total Menu Rekomendasi: " + menuRekomendasi.length + " menu");
+console.log("=== SISTEM SELESAI DIEKSEKUSI ===");
